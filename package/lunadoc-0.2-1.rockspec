@@ -44,7 +44,7 @@ build = {
       ["lunadoc.templates.hljs"] = "modules/lunadoc/templates/hljs.js",
       ["lunadoc.templates.html"] = "modules/lunadoc/templates/html.elua",
       ["lunadoc.templates.style"] = "modules/lunadoc/templates/style.css",
-      ["lunadoc.templates.monokai"] = "modules/lunadoc/templates/monokai.css"
+      ["lunadoc.templates.hlstyles.monokai"] = "modules/lunadoc/templates/monokai.css"
     }
   }
 }

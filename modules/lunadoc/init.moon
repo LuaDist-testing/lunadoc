@@ -17,7 +17,7 @@ loadcfg=(file)->
   return fn,nil,err unless fn
   fn!,true
 
-cfgloader=make_loader 'cfg', loadcfg, './?.lua'
+cfgloader=make_loader 'cfg', loadcfg, './custom_?.lua;./?.lua'
 
 mkdirp=(path)->
   ppath=path\match '^(.+)/[^/]+'
@@ -54,7 +54,7 @@ cpfile=(file, iprefix, oprefix, ofile)->
 
   project.tplcopy or= {
     find_css 'lunadoc.templates.style'
-    find_css 'lunadoc.templates.monokai'
+    find_css 'lunadoc.templates.hlstyles.'.. (project.hljsstyle or 'monokai-sublime')
     find_js 'lunadoc.templates.hljs'
   }
 
