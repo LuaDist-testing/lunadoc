@@ -1,18 +1,10 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lunadoc"
 version = "0.1-2"
 
--- LuaDist source
 source = {
-  tag = "0.1-2",
-  url = "git://github.com/LuaDist-testing/lunadoc.git"
+  url = "git://github.com/cuddlyrobot/lunadoc.git",
+  tag = "0.1"
 }
--- Original source
--- source = {
---   url = "git://github.com/cuddlyrobot/lunadoc.git",
---   tag = "0.1"
--- }
 
 description = {
   summary = "A better documentation generator for Moonscript",
